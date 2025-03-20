@@ -34,6 +34,6 @@ namespace EventPlus.Domains
 
         [ForeignKey("TipoUsuarioID")]
         public TipoUsuario? TipoUsuarios { get; set; }
-
+        public object TipoUsuario { get; internal set; }
     }
 }

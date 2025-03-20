@@ -2,7 +2,7 @@
 
 namespace EventPlus.Interfaces
 {
-    public interface IInstituicaoRepository
+    public interface IPresencaRepository
     {
         //Iscrever-se em evento
         void inscrever(Presenca presenca);

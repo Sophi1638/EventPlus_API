@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\44098786893\\Desktop\\EventPlus\\EventPlus\\",
+  "WorkspaceRootPath": "C:\\Users\\44098786893\\Desktop\\EventPlus_API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{16F4BB08-F429-4827-AB4B-CB5F68E278F0}|EventPlus.csproj|c:\\users\\44098786893\\desktop\\eventplus\\eventplus\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16F4BB08-F429-4827-AB4B-CB5F68E278F0}|EventPlus.csproj|solutionrelative:interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16F4BB08-F429-4827-AB4B-CB5F68E278F0}|EventPlus.csproj|c:\\users\\44098786893\\desktop\\eventplus_api\\repositories\\comentariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16F4BB08-F429-4827-AB4B-CB5F68E278F0}|EventPlus.csproj|solutionrelative:repositories\\comentariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,24 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "IUsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\44098786893\\Desktop\\EventPlus\\EventPlus\\Interfaces\\IUsuarioRepository.cs",
-              "RelativeDocumentMoniker": "Interfaces\\IUsuarioRepository.cs",
-              "ToolTip": "C:\\Users\\44098786893\\Desktop\\EventPlus\\EventPlus\\Interfaces\\IUsuarioRepository.cs",
-              "RelativeToolTip": "Interfaces\\IUsuarioRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA5AAAAAAAAAA==",
+              "Title": "ComentarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\44098786893\\Desktop\\EventPlus_API\\Repositories\\ComentarioRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ComentarioRepository.cs",
+              "ToolTip": "C:\\Users\\44098786893\\Desktop\\EventPlus_API\\Repositories\\ComentarioRepository.cs",
+              "RelativeToolTip": "Repositories\\ComentarioRepository.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAwDoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T18:52:14.774Z",
+              "WhenOpened": "2025-03-20T19:27:10.084Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }

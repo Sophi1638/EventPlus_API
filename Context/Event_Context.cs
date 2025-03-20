@@ -7,13 +7,13 @@ using static EventPlus.Domains.Evento;
 namespace EventPlus_.Context
 {
 
-    public class Eventos_Context : DbContext
+    public class Event_Context : DbContext
     {
-        public Eventos_Context()
+        public Event_Context()
         {
         }
 
-        public Eventos_Context(DbContextOptions<Eventos_Context> options) : base(options)
+        public Event_Context(DbContextOptions<Event_Context> options) : base(options)
         {
         }
 
@@ -24,6 +24,7 @@ namespace EventPlus_.Context
         public DbSet<TipoEvento> TipoEvento { get; set; }
         public DbSet<TipoUsuario> TipoUsuario { get; set; }
         public DbSet<Usuario> Usuario { get; set; }
+        public object TipoUsuarioUsuario { get; internal set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -33,5 +34,9 @@ namespace EventPlus_.Context
             }
         }
 
+        internal Evento Find(Guid id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -35,6 +35,7 @@ namespace EventPlus.Domains
             
            
             public Presenca? Presenca { get; set; }
-        }
+        public object AcessoLivre { get; internal set; }
+    }
     }
 
